@@ -1,0 +1,17 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": [
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*",
+    "playwright.config.*"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "types": [
+      "node"
+    ],
+    // 表示忽略TypeScript 5.0及以前版本中的弃用警告
+    "ignoreDeprecations": "5.0" 
+  }
+}
