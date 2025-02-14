@@ -3,7 +3,7 @@ module.exports = {
       extend: {
         // 在这里加入你的 CSS 变量
         colors: {
-          'bgc': 'var(--color-bg-1)',
+          'primary-color': 'var(--color-bg-1)',
         }
       }
     }

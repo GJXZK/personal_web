@@ -14,4 +14,14 @@ const RouterViewStyle = computed(() => {
 
 <template>
   <homeHeader></homeHeader>
+  <div class="mt-70px">
+    <router-view></router-view>
+  </div>
+  
 </template>
+
+<style lang="css" scoped>
+  .bgc{
+    background-color:var(--color-bg-1); 
+  }
+</style>

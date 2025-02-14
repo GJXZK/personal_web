@@ -32,14 +32,17 @@ function changeThrme() {
         <div class="w-60px ml-20px">
           <img :style="{ width: '100%' }" src="@/assets/img/logo.png" />
         </div>
-        <div class="pl-20px text-20px color-#fff">Insomnia-music</div>
+        <div class="title pl-20px text-20px">Insomnia-music</div>
       </div>
     </div>
     <a-button @click="changeThrme">主题</a-button>
   </div>
 </template>
 <style>
-    /* .test{
+    .test{
       background-color:var(--color-bg-2);
-    } */
+    }
+    .title{
+      color:var(--color-text-1);
+    }
   </style>
